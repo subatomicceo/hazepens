@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: 150% Futura-Medium, Futura, sans-serif;
+  color: #333;
+}
+h1 {
+  font-weight: normal;
+}
+a {
+  color: #f2994b;
+}
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  text-align: center;
+  transition: transform 0.5s ease;
+  transform: translate3d(100%, 0, 0);
+}
+.page a {
+  color: #fff;
+}
+.page.is-visible {
+  transform: translate3d(0, 0, 0);
+}
+.home {
+  color: #fff;
+  background: #f2cf66;
+}
+.activity {
+  color: #fff;
+  background: #f2994b;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  z-index: 10;
+}

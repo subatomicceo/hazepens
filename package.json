@@ -1,0 +1,27 @@
+{
+  "name": "hazepens",
+  "version": "0.0.0",
+  "description": "Next generation in personal vaporizer technology",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.8.6"
+  },
+  "devDependencies": {
+    "gulp-define-module": "^0.1.1",
+    "gulp-handlebars": "^2.1.0",
+    "gulp-stylus": "^1.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subatomicceo/backbone-test.git"
+  },
+  "author": "Greg Parks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subatomicceo/backbone-test/issues"
+  },
+  "homepage": "https://github.com/subatomicceo/backbone-test"
+}
